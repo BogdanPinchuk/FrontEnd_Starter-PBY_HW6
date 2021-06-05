@@ -26,11 +26,8 @@ iframe{
     border-radius: 10px;
 }
 
-video{
-    width: 560px;
-    height: 315px;
+audio{
     margin-top: 1%;
     margin-left: 5%;
     margin-bottom: 1%;
-    border-radius: 10px;
 }
