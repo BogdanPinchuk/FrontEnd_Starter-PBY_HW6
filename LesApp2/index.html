@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Самостоятельная деятельность учащегося</title>
+    <!-- Задание 3
+    Создайте страницу, на которую добавьте видео, и задайте ему размеры. Предусмотрите возможность использования
+    нескольких источников для видео, если браузер не поддерживает тот или иной формат. -->
+
+    <link rel="stylesheet" href="Resources/video_style.css">
+</head>
+
+<body>
+    <div>
+        <h2>Відео контент</h2>
+        <details>
+            <summary>Оригінал відео</summary>
+            <iframe name="online_video" width="560" height="315" src="https://www.youtube.com/embed/vMU7zJLx1CI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </details>
+
+        <video controls poster="Resources/pre-view/Marmok_preview2.jpg" />
+            <source src="Resources/video/Marmok One more time Музыка из ничего.mp4" type="video/mp4">
+            <source src="Resources/video/Marmok One more time Музыка из ничего.webm" type="video/webm">
+        </video>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+
+div{
+    padding: 0 auto;
+    margin: 25px 15px 5px 10px;
+    background-color: springgreen;
+}
+
+h2{
+    text-align: center;
+}
+
+details{
+    margin-bottom: 2%;
+}
+
+iframe{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+video{
+    width: 560px;
+    height: 315px;
+    margin-top: 1%;
+    margin-left: 5%;
+    poster
+}
