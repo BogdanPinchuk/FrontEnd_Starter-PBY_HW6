@@ -143,7 +143,7 @@ aside>div {
     padding: 0;
 }
 
-span {
+aside span {
     color: rgb(247, 102, 0);
     margin: 0;
     padding: 0;
@@ -168,22 +168,56 @@ section>article {
 .class_type {
     font-family: Oswald;
     font-size: 1.25em;
-    background-color:  rgb(247, 102, 0);
+    background-color: rgb(247, 102, 0);
     color: white;
     text-indent: 15px;
     letter-spacing: 0.15em;
     width: 175px;
+    clear: both;
 }
 
-.class_title{
+.class_title {
     font-family: Oswald;
     font-size: 0.95em;
-    background-color:  rgb(247, 102, 0);
+    background-color: rgb(247, 102, 0);
     color: black;
     /* text-indent: 15px; */
     letter-spacing: 0.15em;
     padding-left: 20px;
     width: 400px;
+    clear: both;
+}
+
+.class_exp_pos {
+    font-family: Aileron;
+    font-weight: lighter;
+    color: rgb(90, 90, 90);
+    float: left;
+    margin-top: 0;
+}
+
+.class_exp_date {
+    font-family: Aileron;
+    font-weight: bolder;
+    color: black;
+    float: left;
+    margin-top: 0;
+    margin-left: 50px;
+}
+
+#id_exp {
+    clear: both;
+    color: rgb(90, 90, 90);
+    font-family: Aileron;
+    font-size: 0.8em;
+    text-align: left;
+    width: 450px;
+}
+
+section span{
+    color: black;
+    font-size: 0.95em;
+    font-weight: bolder;
 }
 
 footer {
