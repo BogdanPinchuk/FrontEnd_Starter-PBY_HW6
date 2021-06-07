@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(153, 153, 153); */
+    background-color: rgb(237, 240, 242);
+    /* padding: 5px auto; */
+}
+
+header {
+    height: 35px;
+    width: 210mm;
+    margin: 5px auto;
+    /* background-color: yellow; */
+    background-color: transparent;
+    color: rgb(81, 85, 89);
+    padding-top: 5px;
+}
+
+header>p, footer>p {
+    margin-top: 2px;
+    margin-left: 15px;
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    /* format A4 */
+    width: 210mm;
+    height: 297mm;
+    /* background-color: blue; */
+    background-color: transparent;
+    margin: 5px auto;
+}
+
+aside {
+    width: 35%;
+    height: 100%;
+    background-color: rgb(247, 102, 0);
+    float: left;
+}
+
+aside>div {
+    height: 86.5%;
+    margin-top: 25%;
+    padding: 0;
+    background-color: black;
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('fonts/Oswald-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Aileron;
+    src: url('fonts/Aileron-Regular.otf');
+}
+
+#id_p_1 {
+    color: rgb(247, 102, 0);
+    font-family: Oswald;
+    font-size: 4em;
+    line-height: 1.25em;
+    letter-spacing: 0.05em;
+    transform: rotate(-90deg);
+    text-align: left;
+    position: relative;
+    left: -40px;
+    top: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+#id_p_2 {
+    color: white;
+    font-family: Aileron;
+    font-size: 1.05em;
+    letter-spacing: 0.25em;
+    word-spacing: 0.5em;
+    transform: rotate(-90deg);
+    text-align: left;
+    position: relative;
+    left: 80px;
+    top: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+#id_p_3 {
+    background-color: rgb(247, 102, 0);
+    font-family: Oswald;
+    font-size: 1.5em;
+    text-align: left;
+    text-indent: 15px;
+    width: 125px;
+    position: relative;
+    left: 35px;
+    top: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+#id_p_4 {
+    color: white;
+    font-family: Aileron;
+    font-size: 0.75em;
+    text-align: justify;
+    line-height: 1.5em;
+    position: relative;
+    width: 210px;
+    left: 35px;
+    top: 215px;
+    margin: 0;
+    padding: 0;
+}
+
+#id_p_5 {
+    background-color: rgb(247, 102, 0);
+    font-family: Oswald;
+    font-size: 1.5em;
+    text-align: left;
+    text-indent: 15px;
+    width: 125px;
+    position: relative;
+    left: 35px;
+    top: 275px;
+    padding: 0;
+    margin: 0;
+}
+
+#id_p_6 {
+    color: white;
+    font-family: Aileron;
+    font-size: 0.75em;
+    text-align: justify;
+    line-height: 1.5em;
+    position: relative;
+    width: 210px;
+    left: 35px;
+    top: 290px;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: rgb(247, 102, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.class_a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    width: 65%;
+    height: 100%;
+    background-color: white;
+    float: right;
+}
+
+section>article {
+    margin-left: 20px;
+}
+
+.class_type {
+    font-family: Oswald;
+    font-size: 1.25em;
+    background-color:  rgb(247, 102, 0);
+    color: white;
+    text-indent: 15px;
+    letter-spacing: 0.15em;
+    width: 175px;
+}
+
+.class_title{
+    font-family: Oswald;
+    font-size: 0.95em;
+    background-color:  rgb(247, 102, 0);
+    color: black;
+    /* text-indent: 15px; */
+    letter-spacing: 0.15em;
+    padding-left: 20px;
+    width: 400px;
+}
+
+footer {
+    height: 35px;
+    width: 210mm;
+    margin: 5px auto;
+    /* background-color: red; */
+    background-color: transparent;
+    color: rgb(81, 85, 89);
+    padding-top: 5px;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: rgb(55, 129, 216);
+    font-weight: bold;
+}
